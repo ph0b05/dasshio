@@ -18,7 +18,7 @@ from scapy.all import UDP
 from scapy.all import sniff
 
 
-BASE_URL = os.environ.get("HA_BASE_URL") or "http://hassio/homeassistant"
+BASE_URL = os.environ.get("HA_BASE_URL") or "https://mysphere.duckdns.org:8123"
 
 
 def signal_handler(signal, frame):
